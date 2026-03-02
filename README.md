@@ -101,20 +101,25 @@ Plugin de Comercio Electrónico:
 
 ## Plugins Previstos
 
-Comercio electrónico:
+### Comercio electrónico
 - WooCommerce
 
-Seguridade:
+### Seguridade
 - Wordfence Security
 - Limit Login Attempts Reloaded
+- Really Simple SSL
 
-Copias de Seguridade:
+### Copias de Seguridade
 - UpdraftPlus
 
-Formularios:
+### Formularios
 - WPForms
 
-Optimización:
+### SEO e Posicionamento
+- Yoast SEO
+- Redirection
+
+### Rendemento e Optimización
 - WP Super Cache
 - Autoptimize
 
@@ -180,9 +185,3 @@ A documentación final incluirá:
 - Xestión avanzada de stock.
 - Mellora do deseño responsive.
 - Integración con pasarela de pago real.
-
----
-
-## Autor
-
-Proxecto académico desenvolvido para a materia de Desenvolvemento Web e Administración de Sistemas.
