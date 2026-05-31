@@ -180,3 +180,9 @@ Estes dous arquivos permiten restaurar a web completa en calquera servidor.
 - Xestión avanzada de stock.  
 - Mellora do deseño responsive.  
 - Integración con pasarela de pago real.
+## Copia de seguridade da web
+
+A copia completa da web (ZIP + installer.php) está dispoñible na sección de Releases:
+
+**Descargar copia de seguridade:**  
+https://github.com/hugoM33/proyectof-final-de-curso-desarrollo-web/releases/latest
