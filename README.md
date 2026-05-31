@@ -5,183 +5,178 @@
 
 ## Descrición do Proxecto
 
-Este proxecto consiste no deseño, desenvolvemento e publicación desde cero dunha páxina web corporativa con tenda online integrada para a empresa Granitos e Obras Mosquera.
+Este proxecto consiste no deseño, desenvolvemento e publicación dunha páxina web corporativa con tenda online integrada para a empresa **Granitos e Obras Mosquera (GRAOMOS)**.
 
-A empresa non dispón actualmente de presenza web, polo que se desenvolverá unha solución completa que permita:
+A empresa non dispoñía de presenza web, polo que se creou unha solución completa que inclúe:
 
-- Presentar información corporativa.
-- Mostrar os servizos ofrecidos.
-- Amosar proxectos realizados.
-- Dispoñer dunha tenda online con produtos promocionais e personalizados.
-- Permitir acceso desde rede local e externa.
-- Aplicar medidas básicas de seguridade.
+- Información corporativa e de contacto.
+- Presentación dos servizos profesionais.
+- Galería de proxectos realizados.
+- Tenda online con merchandising corporativo e produtos de pedra.
+- Acceso desde rede local e acceso externo mediante DDNS.
+- Medidas básicas de seguridade e copias de seguridade.
 
-O sistema estará baseado nunha arquitectura cliente-servidor empregando tecnoloxía LAMP.
+O sistema baséase nunha arquitectura **LAMP** instalada nun **Ubuntu Server** configurado manualmente.
 
 ---
 
 ## Obxectivos
 
 ### Obxectivo Xeral
-
-Deseñar, implementar e publicar unha páxina web corporativa con sistema de comercio electrónico integrado, garantindo funcionalidade, seguridade básica e accesibilidade externa.
+Crear e publicar unha páxina web corporativa con tenda online funcional, accesible desde rede local e externa, garantindo seguridade básica e estabilidade.
 
 ### Obxectivos Específicos
-
-- Instalar e configurar Ubuntu Server.
-- Instalar e configurar Apache.
-- Instalar e configurar MariaDB.
-- Instalar WordPress manualmente.
-- Integrar WooCommerce para a tenda online.
-- Crear un catálogo con mínimo 8–10 produtos.
-- Configurar sistema de carrito e pedido simulado.
-- Permitir acceso externo mediante DDNS.
-- Aplicar medidas básicas de seguridade.
-- Realizar copias de seguridade periódicas.
-- Documentar todo o proceso.
+- Instalación e configuración de **Ubuntu Server 24.04**.
+- Instalación e configuración de **Apache**, **MariaDB** e **PHP**.
+- Instalación manual de **WordPress**.
+- Integración de **WooCommerce** para a tenda online.
+- Creación dun catálogo real de produtos corporativos e produtos de pedra.
+- Configuración de acceso externo mediante **DDNS**.
+- Aplicación de medidas de seguridade básicas.
+- Realización de copias de seguridade.
+- Documentación completa do proceso.
 
 ---
 
 ## Arquitectura do Sistema
 
-Empregarase unha arquitectura LAMP:
+Arquitectura **LAMP**:
 
-- Linux: Ubuntu Server
-- Apache: Servidor web
-- MariaDB: Base de datos
-- PHP: Linguaxe de execución de WordPress
+- **Linux:** Ubuntu Server 24.04  
+- **Apache:** Servidor web  
+- **MariaDB:** Base de datos  
+- **PHP:** Execución de WordPress  
+- **WordPress:** CMS principal  
+- **WooCommerce:** Motor da tenda online  
 
-O acceso realizarase mediante navegador web conectándose ao servidor.
+Acceso mediante navegador web desde calquera dispositivo da rede.
 
 ---
 
 ## Estrutura da Web
 
 ### Parte Corporativa
-
-- Inicio
-- Quiénes somos
-- Servizos
-- Proxectos realizados
+- Inicio  
+- Quen somos  
+- Servizos  
+- Proxectos  
 - Contacto (formulario)
 
-### Parte Tenda Online
+### Tenda Online (WooCommerce)
 
-- Produtos promocionais:
-  - Llaveros
-  - Bolígrafos
-  - Camisetas
-  - Gorras
-- Produto decorativo personalizado:
-  - Logo tallado en pedra (medida fixa estándar)
-- Carrito de compra
-- Pedido simulado
-- Confirmación de pedido
+#### Produtos reais incluídos no proxecto
 
----
+##### **Merchandising corporativo**
+- Gorra corporativa GRAOMOS  
+- Camiseta corporativa GRAOMOS  
+- Bolígrafo corporativo GRAOMOS  
+- Calendario corporativo GRAOMOS  
 
-## Entorno Tecnolóxico
+##### **Produtos de pedra**
+- Maceta de pedra natural  
+- Banco de pedra morena  
+- Cruz de pedra morena  
+- Lavabo de pedra  
 
-Sistema Operativo:
-- Ubuntu Server
+##### **Servizos de pedra**
+- **Viaxe de Cachotes (Transporte e colocación de pedra para muros, valados e obras)**  
+  - Produto configurado como servizo  
+  - Prezo variable segundo destino e cantidade  
+  - Inclúe transporte e colocación  
 
-Servidor Web:
-- Apache
-
-Base de Datos:
-- MariaDB
-
-CMS:
-- WordPress
-
-Plugin de Comercio Electrónico:
-- WooCommerce
+#### Funcionalidades
+- Carrito  
+- Pedido simulado  
+- Páxina de confirmación  
+- Xestión de produtos desde o panel de administración  
 
 ---
 
-## Plugins Previstos
+## Plugins Instalados (Reais do Proxecto)
 
 ### Comercio electrónico
 - WooCommerce
 
 ### Seguridade
-- Wordfence Security
-- Limit Login Attempts Reloaded
+- Wordfence Security  
+- Limit Login Attempts Reloaded  
 - Really Simple SSL
 
 ### Copias de Seguridade
-- UpdraftPlus
+- Duplicator
 
 ### Formularios
-- WPForms
+- WPForms Lite
 
-### SEO e Posicionamento
+### SEO
 - Yoast SEO
-- Redirection
 
-### Rendemento e Optimización
-- WP Super Cache
+### Rendemento
 - Autoptimize
 
 ---
 
-## Medidas de Seguridade
+## Medidas de Seguridade Aplicadas
 
-- Eliminación do usuario administrador por defecto.
-- Uso de contrasinais seguras.
-- Actualización periódica de WordPress e plugins.
+- Eliminación do usuario *admin* por defecto.
+- Contrasinais seguras.
+- Actualizacións periódicas de WordPress e plugins.
 - Permisos correctos en ficheiros e carpetas.
-- Limitación de intentos de login.
-- Copias de seguridade automáticas programadas.
-- Explicación dos riscos derivados da exposición a Internet.
+- Limitación de intentos de acceso.
+- Copias de seguridade mediante Duplicator.
+- Explicación dos riscos de exposición a Internet.
 
 ---
 
 ## Publicación Externa
 
-Para permitir acceso desde fóra da rede local utilizarase:
+Para permitir acceso desde fóra da rede local configurouse:
 
-- Servizo de DNS dinámico (DDNS).
-- Configuración de redirección de portos no router.
-- Acceso mediante nome de dominio dinámico.
-
-Isto permitirá que a web sexa accesible desde Internet sen necesidade de IP fixa.
+- Servizo **DDNS**.  
+- Redirección de portos no router (80/443).  
+- Probas de acceso externo desde móbil e redes alleas.
 
 ---
 
-## Probas Previstas
+## Probas Realizadas
 
-O proxecto deberá demostrar:
-
-- Acceso desde rede local.
-- Acceso desde rede externa.
-- Funcionamento correcto do carrito.
-- Pedido simulado completado.
-- Acceso protexido ao panel de administración.
-- Alta, edición e eliminación de produtos.
-- Funcionamento das copias de seguridade.
+- Acceso desde rede local.  
+- Acceso desde rede externa mediante DDNS.  
+- Funcionamento do carrito e pedido simulado.  
+- Alta, edición e eliminación de produtos.  
+- Acceso ao panel de administración protexido.  
+- Restauración da web mediante Duplicator.
 
 ---
 
-## Documentación
+## Documentación Incluída
 
-A documentación final incluirá:
-
-- Memoria técnica en formato PDF.
-- Capturas de pantalla.
-- Evidencias das probas realizadas.
-- Explicación da configuración do servidor.
-- Explicación da arquitectura do sistema.
-- Procedemento de publicación externa.
-- Procedemento de restauración de copias de seguridade.
+- Memoria técnica en PDF.  
+- Capturas de pantalla.  
+- Evidencias das probas.  
+- Configuración completa do servidor.  
+- Arquitectura do sistema.  
+- Procedemento de publicación externa.  
+- Procedemento de restauración da copia de seguridade.
 
 ---
 
-## Posibles Ampliacións Futuras
+## Copia de Seguridade da Web
 
-- Implementación de HTTPS mediante certificado SSL.
-- Sistema de rexistro de usuarios.
-- Confirmación automática de pedidos por correo electrónico.
-- Xestión avanzada de stock.
-- Mellora do deseño responsive.
+A copia completa da web está incluída neste repositorio como:
+
+- **installer.php**  
+- **archive.zip** (paquete xerado con Duplicator)
+
+Estes dous arquivos permiten restaurar a web completa en calquera servidor.
+
+---
+
+## Posibles Melloras Futuras
+
+- Activación de HTTPS con certificado SSL.  
+- Sistema de rexistro de usuarios.  
+- Envío automático de correos de confirmación.  
+- Xestión avanzada de stock.  
+- Mellora do deseño responsive.  
 - Integración con pasarela de pago real.
